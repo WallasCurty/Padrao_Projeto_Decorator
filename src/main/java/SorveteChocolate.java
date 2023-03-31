@@ -4,11 +4,11 @@ public class SorveteChocolate extends SorveteDecorator{
     }
 
     @Override
-    public float getPreco() {
+    public float getPrecoSorvete() {
         return 10.0f;
     }
 
-    public String getNomeIngrediente(){
+    public String getNomeSorvete(){
         return "Chocolate";
     }
 }

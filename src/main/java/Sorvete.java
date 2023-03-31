@@ -1,4 +1,5 @@
 public interface Sorvete {
     float getPreco();
-    String getIngrediente();
+
+    abstract String getIngrediente();
 }

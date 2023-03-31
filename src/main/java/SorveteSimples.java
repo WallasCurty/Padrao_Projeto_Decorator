@@ -1,23 +1,20 @@
 public class SorveteSimples implements Sorvete{
-    public SorveteSimples(Sorvete sorvete) {
-        super();
-    }
+    public float preco;
 
-    public float getPrecoSorvete() {
-        return 20.0f;
+    public SorveteSimples() {
     }
-
-    public String getNomeIngrediente() {
-        return "Sorvete";
+    public SorveteSimples(float preco) {
+        this.preco = preco;
     }
 
     @Override
     public float getPreco() {
-        return 0;
+
+        return preco;
     }
 
     @Override
     public String getIngrediente() {
-        return null;
+        return "Simples";
     }
 }

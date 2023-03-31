@@ -1,14 +1,18 @@
 public class SorveteMorango extends SorveteDecorator{
     public SorveteMorango(Sorvete sorvete){
+
         super(sorvete);
     }
 
     @Override
-    public float getPreco() {
+    public float getPrecoSorvete() {
+
         return 7.0f;
     }
 
-    public String getNomeIngrediente(){
+    public String getNomeSorvete(){
+
         return "Morango";
     }
+
 }
